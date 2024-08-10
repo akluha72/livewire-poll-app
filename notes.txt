@@ -3,3 +3,6 @@
     -> php artisan make:livewire CreatePoll
     -> two folder will be created livewire controller and the livewire blade
     -> use the livewire directive to create a component
+
+2. How Livewire works
+    -> 
