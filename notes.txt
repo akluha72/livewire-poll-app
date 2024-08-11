@@ -15,3 +15,6 @@
     -> you can use 'options.*' to validate every element of the array
     -> if the validation failed nothing will be runing after the validation line
     -> use @error blade directive
+
+5. event listener
+    -> without using ajax, we can can make a submmission and immediatly show the new created object without having to referesh the page.

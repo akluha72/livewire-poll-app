@@ -1,7 +1,7 @@
 <div>
 
     @forelse($polls as $poll)
-        <div class="mb-4">
+        <div class="mt-4">
             <h3 class="mb-4 text-xl">
                 {{ $poll->title }}
             </h3>
@@ -11,6 +11,8 @@
                 {{$option->name}} ({{$option->votes->count()}})
                 </div>
             @endforeach
+            <br>
+            <hr>
         </div>
     @empty
         <div class="text-gray-500">
