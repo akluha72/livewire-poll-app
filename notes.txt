@@ -6,3 +6,12 @@
 
 2. How Livewire works
     -> 
+
+3. Refactoring the pol storing code
+    -> using collection method
+    -> simplify the code by make it bit more complex and 
+
+4. Validation 
+    -> you can use 'options.*' to validate every element of the array
+    -> if the validation failed nothing will be runing after the validation line
+    -> use @error blade directive
